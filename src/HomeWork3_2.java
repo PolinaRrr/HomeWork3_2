@@ -44,7 +44,6 @@ public class HomeWork3_2 {
      */
     private static String choiseAWord(String[] words) {
         int elementOfArray = new Random().nextInt(words.length - 1);
-
         System.out.println(words[elementOfArray]);
         return words[elementOfArray];
     }
